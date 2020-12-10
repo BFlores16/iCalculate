@@ -13,6 +13,7 @@
 		A5AFF4512582ADD90046BECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AFF4502582ADD90046BECB /* Assets.xcassets */; };
 		A5AFF4542582ADD90046BECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AFF4522582ADD90046BECB /* LaunchScreen.storyboard */; };
 		A5AFF4672582B24F0046BECB /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AFF4662582B24F0046BECB /* CalculatorViewController.swift */; };
+		A5AFF46A2582C9DA0046BECB /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AFF4692582C9DA0046BECB /* CalculatorLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A5AFF4532582ADD90046BECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5AFF4552582ADD90046BECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5AFF4662582B24F0046BECB /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		A5AFF4692582C9DA0046BECB /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		A5AFF45E2582ADFA0046BECB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A5AFF4692582C9DA0046BECB /* CalculatorLogic.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AFF46A2582C9DA0046BECB /* CalculatorLogic.swift in Sources */,
 				A5AFF4482582ADD50046BECB /* AppDelegate.swift in Sources */,
 				A5AFF4672582B24F0046BECB /* CalculatorViewController.swift in Sources */,
 				A5AFF44A2582ADD50046BECB /* SceneDelegate.swift in Sources */,
